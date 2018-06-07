@@ -1,0 +1,16 @@
+{
+    "name": "msol/identification",
+    "description": "Middleware for identify user by backoffice webservice",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "raguilar",
+            "email": "raguilar@msolutions.es"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "illuminate/support": ">=5.4"
+    }
+}
