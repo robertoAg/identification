@@ -24,5 +24,10 @@ class IdentificationServiceProvider extends ServiceProvider
     public function register()
     {
         //
+        $this->app->singleton(IdentificationMiddleware::class, function () {
+            return new IdentificationMiddleware();
+        });
+
+        $this->app->alias(IdentificationMiddleware::class, 'identification-middleware');
     }
 }
